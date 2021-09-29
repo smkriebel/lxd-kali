@@ -19,7 +19,7 @@ $ cat lxd-kali.profile | lxc profile edit kali`
 ### Create the lxd container.
 
 ```sh
-$ lxc launch -p default -p kali images:kali/cloud/current kali
+$ lxc launch -p default -p kali images:kali/current/cloud kali
 ```
 The command example above assumes you are using the `default` profile to set things like network and storage.
 Include the proper profiles if you're not using the `default` profile name.
